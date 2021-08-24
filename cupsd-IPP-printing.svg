@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   sodipodi:docname="cupsd-IPP-printing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="369"
+     inkscape:cy="562.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="91.014831"
+       y="167.43079"
+       width="456.46122"
+       height="311.58823"
+       id="rect114113" />
+    <rect
+       x="94.64392"
+       y="99.325103"
+       width="302.63495"
+       height="98.128875"
+       id="rect73992" />
+    <rect
+       x="409.2232"
+       y="147.72852"
+       width="214.51006"
+       height="107.88752"
+       id="rect52743" />
+    <rect
+       x="86.451834"
+       y="457.43555"
+       width="344.36944"
+       height="239.85931"
+       id="rect15822" />
+    <rect
+       x="372.81138"
+       y="841.46659"
+       width="302.93266"
+       height="186.98338"
+       id="rect2662" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.8;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect31"
+       width="91.11441"
+       height="63.462776"
+       x="93.207001"
+       y="214.77377" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.363457;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect31-3"
+       width="60.855007"
+       height="19.61265"
+       x="23.732872"
+       y="141.58966" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2660"
+       style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2662);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="372.81055"
+         y="860.34177"
+         id="tspan447520">CUPSD:
+</tspan><tspan
+         x="372.81055"
+         y="887.00839"
+         id="tspan447522">1. Creates print queue
+</tspan><tspan
+         x="372.81055"
+         y="913.67502"
+         id="tspan447524">2. Submits IPP request for </tspan><tspan
+         x="372.81055"
+         y="940.34164"
+         id="tspan447526">the ppd file
+</tspan><tspan
+         x="372.81055"
+         y="967.00827"
+         id="tspan447528">3. Assigns ppd file to the </tspan><tspan
+         x="372.81055"
+         y="993.6749"
+         id="tspan447530">print queue
+</tspan><tspan
+         x="372.81055"
+         y="1020.3415"
+         id="tspan447532">4. Listens for print jobs</tspan></text>
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.649828;stroke-miterlimit:4;stroke-dasharray:1.94949, 0.649828;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect11080"
+       width="14.939417"
+       height="125.92586"
+       x="152.32539"
+       y="88.69355" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="91.381264"
+       y="-158.99605"
+       id="text11788"
+       transform="rotate(90.536584)"><tspan
+         sodipodi:role="line"
+         id="tspan11786"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="91.381264"
+         y="-158.99605">   &lt;= Print Queue (IPP data stream) &lt;=</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,6.3089347,26.364803)"
+       id="text15820"
+       style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect15822);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="86.451172"
+         y="481.02933"
+         id="tspan447534">Printer Driver</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.258757px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 92.821018,231.52402 -50.84097,-69.8225"
+       id="path16583" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 107.53346,214.72489 C 105.70038,214.06064 65.847951,161.05495 65.847951,161.05495"
+       id="path16805" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="171.48819"
+       y="55.476097"
+       id="text33229"
+       transform="rotate(54.703448)"><tspan
+         sodipodi:role="line"
+         id="tspan33227"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="171.48819"
+         y="55.476097">IPP request for ppd file</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="196.065"
+       y="34.543228"
+       id="text33229-5"
+       transform="rotate(54.767449)"><tspan
+         sodipodi:role="line"
+         id="tspan33227-3"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="196.065"
+         y="34.543228">ppd file</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 48.943405,176.50956 Z"
+       id="path47185" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 46.549637,168.24901 v 5.05132"
+       id="path47187" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.199;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 99.664446,205.22437 94.216004,204.6417"
+       id="path47189" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 46.549637,168.24901 Z"
+       id="path47191" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 46.549637,168.24901 Z"
+       id="path47193" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.23556px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 46.551365,168.24812 v 0 c 0,0 0,0 0,0 l 5.026415,2.06826"
+       id="path47195" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.185372px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.664446,205.22437 1.271624,-5.61082"
+       id="path47197" />
+    <image
+       width="33.866665"
+       height="33.866665"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+H59p8/8BT2xAvm8yxQAAAABJRU5ErkJggg==
+"
+       id="image71258"
+       x="139.0511"
+       y="56.017059" />
+    <g
+       id="g166566"
+       transform="translate(-15.937981,-19.293324)">
+      <text
+         xml:space="preserve"
+         transform="scale(0.26458333)"
+         id="text73990"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect73992);fill:#000000;fill-opacity:1;stroke:none"><tspan
+           x="94.644531"
+           y="136.62391"
+           id="tspan447538"><tspan
+             style="font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             id="tspan447536">IPP Printing</tspan></tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 22.793559,39.416684 60.20342,0.04124"
+         id="path109981" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-16.65755,-15.741311)"
+       id="text114111"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect114113);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="91.015625"
+         y="183.9473"
+         id="tspan447542"><tspan
+   style="font-weight:bold"
+   id="tspan447540">Printer languages</tspan> (only 4) = pdf, appleraster, </tspan><tspan
+         x="91.015625"
+         y="207.28067"
+         id="tspan447546">pwgraster, pclm<tspan
+   style="font-weight:bold"
+   id="tspan447544">
+</tspan></tspan><tspan
+         x="91.015625"
+         y="230.61404"
+         id="tspan447550"><tspan
+           style="font-weight:bold"
+           id="tspan447548">
+</tspan></tspan><tspan
+         x="91.015625"
+         y="253.94742"
+         id="tspan447554"><tspan
+   style="font-weight:bold"
+   id="tspan447552">ppd file</tspan> = postscript (ps) printer description </tspan><tspan
+         x="91.015625"
+         y="277.28079"
+         id="tspan447556">file. Non-ps printers will specify filter(s) in their </tspan><tspan
+         x="91.015625"
+         y="300.61417"
+         id="tspan447558">ppd files that translate ps to the specific printer </tspan><tspan
+         x="91.015625"
+         y="323.94754"
+         id="tspan447560">language.
+</tspan><tspan
+         x="91.015625"
+         y="347.28091"
+         id="tspan447562">
+</tspan><tspan
+         x="91.015625"
+         y="370.61429"
+         id="tspan447566"><tspan
+   style="font-weight:bold"
+   id="tspan447564">IPP</tspan> = Internet Printer Protocol (CUPSD is based </tspan><tspan
+         x="91.015625"
+         y="393.94766"
+         id="tspan447568">on IPP)</tspan></text>
+  </g>
+</svg>
