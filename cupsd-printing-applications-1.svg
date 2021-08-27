@@ -9,7 +9,7 @@
    id="svg897"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
    sodipodi:docname="cupsd-printing-applications-1.svg"
-   inkscape:export-filename="/home/heather/Projects/IPP-stack-flowcharts/cupsd-driverless-IPP-printing-1.png"
+   inkscape:export-filename="/home/heather/Projects/IPP-stack-flowcharts/cupsd-printing-applications.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,7 +29,7 @@
      showgrid="false"
      inkscape:zoom="1.0633188"
      inkscape:cx="328.68788"
-     inkscape:cy="816.78232"
+     inkscape:cy="967.2546"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -38,6 +38,18 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs894">
+    <linearGradient
+       id="linearGradient53397"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop53393" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop53395" />
+    </linearGradient>
     <rect
        x="18.695296"
        y="34.677752"
@@ -295,18 +307,27 @@
        width="549.05636"
        height="165.20141"
        id="rect30347-3" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient53397"
+       id="linearGradient53401"
+       x1="36.714862"
+       y1="103.25772"
+       x2="154.0307"
+       y2="103.25772"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff;stroke:#2b2200;stroke-width:0.497375;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:url(#linearGradient53401);stroke:#2b2200;stroke-width:0.415689;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
        id="rect145315"
-       width="120.22676"
-       height="208.63878"
-       x="36.963551"
-       y="28.35741" />
+       width="116.90015"
+       height="149.88229"
+       x="36.922707"
+       y="28.316568" />
     <rect
        style="fill:#cccccc;stroke:#000000;stroke-width:0.285839;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.85752, 0.85752;stroke-dashoffset:0"
        id="rect980-9"
@@ -333,40 +354,44 @@
          y="0"><tspan
            x="353.44531"
            y="572.07614"
-           id="tspan15061">1. Automatically detects network/USB </tspan><tspan
-           x="353.44531"
-           y="588.74277"
-           id="tspan15063">printers via DNS-SD/Avahi
+           id="tspan53543">1. User initiates printer setup
 </tspan><tspan
            x="353.44531"
+           y="588.74277"
+           id="tspan53545">2. Detects network/USB printers via </tspan><tspan
+           x="353.44531"
            y="605.40939"
-           id="tspan15065">2. Initiates a virtual queue
+           id="tspan53547">DNS-SD/Avahi
 </tspan><tspan
            x="353.44531"
            y="622.07602"
-           id="tspan15067">3. Listens on the print queue for jobs
+           id="tspan53549">2. Initiates a virtual queue
 </tspan><tspan
            x="353.44531"
            y="638.74265"
-           id="tspan15069">4. Turns virtual queue into physical </tspan><tspan
-           x="353.44531"
-           y="655.40927"
-           id="tspan15071">queue when print job comes along
+           id="tspan53551">3. Listens on the print queue for jobs
 </tspan><tspan
            x="353.44531"
+           y="655.40927"
+           id="tspan53553">4. Turns virtual queue into physical </tspan><tspan
+           x="353.44531"
            y="672.0759"
-           id="tspan15073">5. Polls printer for its properties directly
+           id="tspan53555">queue when print job comes along
 </tspan><tspan
            x="353.44531"
            y="688.74252"
-           id="tspan15075">6. creates PPD from gathered </tspan><tspan
-           x="353.44531"
-           y="705.40915"
-           id="tspan15077">properties
+           id="tspan53557">5. Polls printer for its properties directly
 </tspan><tspan
            x="353.44531"
+           y="705.40915"
+           id="tspan53559">6. creates PPD from gathered </tspan><tspan
+           x="353.44531"
            y="722.07578"
-           id="tspan15079">7. Assigns PPD to queue</tspan></text>
+           id="tspan53561">properties
+</tspan><tspan
+           x="353.44531"
+           y="738.7424"
+           id="tspan53563">7. Assigns PPD to queue</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -480,7 +505,7 @@
        inkscape:transform-center-x="-3.4948833"
        inkscape:transform-center-y="3.7204283" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.21830299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215);stroke-miterlimit:4;stroke-dasharray:0.87321198,0.87321198;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:0.21830299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        d="M 96.769435,171.08218 56.941206,250.83705"
        id="path112556" />
     <rect
@@ -499,35 +524,35 @@
        transform="translate(6.287647,139.33105)"><tspan
          x="60.410202"
          y="56.737183"
-         id="tspan15083"><tspan
+         id="tspan53567"><tspan
    style="font-weight:bold"
-   id="tspan15081">Optionally interface with CUPS </tspan>
+   id="tspan53565">Mandatory interface with CUPS </tspan>
 </tspan><tspan
          x="60.410202"
          y="61.146896"
-         id="tspan15085">- gnome-control-center:
+         id="tspan53569">- gnome-control-center:
 </tspan><tspan
          x="60.410202"
          y="65.55661"
-         id="tspan15087">    - User Interface to CUPSD
+         id="tspan53571">    - User Interface to CUPSD
 </tspan><tspan
          x="60.410202"
          y="69.96632"
-         id="tspan15089">    - Access printer settings, once </tspan><tspan
+         id="tspan53573">    - Access printer settings, once </tspan><tspan
          x="60.410202"
          y="74.376033"
-         id="tspan15091">connection has been made
+         id="tspan53575">connection has been made
 </tspan><tspan
          x="60.410202"
          y="78.785747"
-         id="tspan15093">- The CUPS web interface on http://</tspan><tspan
+         id="tspan53577">- The CUPS web interface on http://</tspan><tspan
          x="60.410202"
          y="83.195461"
-         id="tspan15095">localhost:631/
+         id="tspan53579">localhost:631/
 </tspan><tspan
          x="60.410202"
          y="87.605175"
-         id="tspan15097">- lpadmin command</tspan></text>
+         id="tspan53581">- lpadmin command</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.7507795,162.98503)"
@@ -535,16 +560,16 @@
        style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect185573)"><tspan
          x="140.00391"
          y="404.74997"
-         id="tspan15099">Once print queue </tspan><tspan
+         id="tspan53583">Once print queue </tspan><tspan
          x="140.00391"
          y="421.4166"
-         id="tspan15101">established, print dialogs </tspan><tspan
+         id="tspan53585">established, print dialogs </tspan><tspan
          x="140.00391"
          y="438.08322"
-         id="tspan15103">poll PPD options to </tspan><tspan
+         id="tspan53587">poll PPD options to </tspan><tspan
          x="140.00391"
          y="454.74985"
-         id="tspan15105">display</tspan></text>
+         id="tspan53589">display</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215)"
        d="M 182.35971,251.43929 56.905199,250.85531"
@@ -567,10 +592,10 @@
          transform="translate(-2.4564006,-4.5886901)"><tspan
            x="110.50502"
            y="255.38158"
-           id="tspan15107">User sends print </tspan><tspan
+           id="tspan53591">User sends print </tspan><tspan
            x="110.50502"
            y="259.7913"
-           id="tspan15109">jobs to queue</tspan></text>
+           id="tspan53593">jobs to queue</tspan></text>
     </g>
     <g
        id="g53868"
@@ -599,27 +624,27 @@
                transform="translate(-7.6895159,-0.49466383)"><tspan
                  x="163.79201"
                  y="105.71771"
-                 id="tspan15113"><tspan
+                 id="tspan53597"><tspan
    style="font-weight:bold"
-   id="tspan15111">Cups queue</tspan>
+   id="tspan53595">Cups queue</tspan>
 </tspan><tspan
                  x="163.79201"
                  y="110.12743"
-                 id="tspan15115">- queue name
+                 id="tspan53599">- queue name
 </tspan><tspan
                  x="163.79201"
                  y="114.53714"
-                 id="tspan15117">- PPD file
+                 id="tspan53601">- PPD file
 </tspan><tspan
                  x="163.79201"
                  y="118.94686"
-                 id="tspan15119">- Printer and it's </tspan><tspan
+                 id="tspan53603">- Printer and it's </tspan><tspan
                  x="163.79201"
                  y="123.35657"
-                 id="tspan15121">connection (USB, IPP, </tspan><tspan
+                 id="tspan53605">connection (USB, IPP, </tspan><tspan
                  x="163.79201"
                  y="127.76628"
-                 id="tspan15123">port, etc)</tspan></text>
+                 id="tspan53607">port, etc)</tspan></text>
           </g>
         </g>
       </g>
@@ -642,35 +667,35 @@
        style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect128528);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="90.742188"
          y="408.93747"
-         id="tspan15125">- Announce themselves as IPP printer </tspan><tspan
+         id="tspan53609">- Announce themselves as IPP printer </tspan><tspan
          x="90.742188"
          y="425.6041"
-         id="tspan15127">via DNS-SD
+         id="tspan53611">via DNS-SD
 </tspan><tspan
          x="90.742188"
          y="442.27072"
-         id="tspan15129">- no network needed, can be localhost
+         id="tspan53613">- no network needed, can be localhost
 </tspan><tspan
          x="90.742188"
          y="458.93735"
-         id="tspan15131">- converts incoming job data to format </tspan><tspan
+         id="tspan53615">- converts incoming job data to format </tspan><tspan
          x="90.742188"
          y="475.60397"
-         id="tspan15133">printer needs
+         id="tspan53617">printer needs
 </tspan><tspan
          x="90.742188"
          y="492.2706"
-         id="tspan15135">- can answer get-printer-attributes IPP </tspan><tspan
+         id="tspan53619">- can answer get-printer-attributes IPP </tspan><tspan
          x="90.742188"
          y="508.93723"
-         id="tspan15137">requests with their internal knowledge </tspan><tspan
+         id="tspan53621">requests with their internal knowledge </tspan><tspan
          x="90.742188"
          y="525.60385"
-         id="tspan15139">about the printer
+         id="tspan53623">about the printer
 </tspan><tspan
          x="90.742188"
          y="542.27048"
-         id="tspan15141">
+         id="tspan53625">
 </tspan></text>
     <text
        xml:space="preserve"
@@ -681,11 +706,11 @@
        y="0"><tspan
          x="18.695312"
          y="70.068359"
-         id="tspan15147"><tspan
+         id="tspan53631"><tspan
            style="font-weight:bold"
-           id="tspan15143">Printing </tspan><tspan
+           id="tspan53627">Printing </tspan><tspan
            style="font-weight:bold"
-           id="tspan15145">Applications</tspan></tspan></text>
+           id="tspan53629">Applications</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:161.108;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -695,6 +720,6 @@
        transform="translate(0.57977571,-82.864461)"><tspan
          x="5.6894159"
          y="102.77476"
-         id="tspan15149">To support legacy printers as CUPS moves beyond PPD files</tspan></text>
+         id="tspan53633">To support legacy printers as CUPS moves beyond PPD files</tspan></text>
   </g>
 </svg>
