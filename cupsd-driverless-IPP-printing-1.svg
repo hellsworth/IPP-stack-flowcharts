@@ -8,8 +8,8 @@
    version="1.1"
    id="svg897"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
-   sodipodi:docname="cupsd-IPP-printing-1.svg"
-   inkscape:export-filename="/home/heather/Projects/IPP-stack-flowcharts/cupsd-IPP-printing-1.png"
+   sodipodi:docname="cupsd-driverless-IPP-printing-1.svg"
+   inkscape:export-filename="/home/heather/Projects/IPP-stack-flowcharts/cupsd-driverless-IPP-printing-1.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,8 +28,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.0633188"
-     inkscape:cx="330.56878"
-     inkscape:cy="147.1807"
+     inkscape:cx="384.17453"
+     inkscape:cy="365.3655"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -41,8 +41,8 @@
     <rect
        x="18.695296"
        y="34.677752"
-       width="213.26486"
-       height="222.14313"
+       width="231.07541"
+       height="219.66205"
        id="rect30347" />
     <rect
        x="-314.71841"
@@ -59,8 +59,8 @@
     <rect
        x="353.44558"
        y="560.27918"
-       width="265.57519"
-       height="219.83636"
+       width="267.20979"
+       height="216.13288"
        id="rect299904" />
     <rect
        x="55.525686"
@@ -288,10 +288,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.252403px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215-36)"
-       d="m 171.7894,155.13175 -43.43696,0.19282"
-       id="path617587-3" />
     <rect
        style="fill:#cccccc;stroke:#000000;stroke-width:0.285839;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.85752, 0.85752;stroke-dashoffset:0"
        id="rect980-9"
@@ -300,6 +296,97 @@
        x="187.00525"
        y="34.805267"
        ry="0" />
+    <g
+       id="g35138">
+      <rect
+         style="fill:#ffffff;stroke:#2b2200;stroke-width:0.285494;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1900"
+         width="81.86972"
+         height="74.809135"
+         x="61.436489"
+         y="94.08075" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-25.958772,-30.493281)"
+         id="text299902"
+         style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;text-align:start;white-space:pre;shape-inside:url(#rect299904)"
+         x="-4.9686059e-07"
+         y="0"><tspan
+           x="353.44531"
+           y="572.07614"
+           id="tspan72899">1. Automatically detects network/USB </tspan><tspan
+           x="353.44531"
+           y="588.74277"
+           id="tspan72901">printers via DNS-SD/Avahi
+</tspan><tspan
+           x="353.44531"
+           y="605.40939"
+           id="tspan72903">2. Initiates a virtual queue
+</tspan><tspan
+           x="353.44531"
+           y="622.07602"
+           id="tspan72905">3. Listens on the print queue for jobs
+</tspan><tspan
+           x="353.44531"
+           y="638.74265"
+           id="tspan72907">4. Turns virtual queue into physical </tspan><tspan
+           x="353.44531"
+           y="655.40927"
+           id="tspan72909">queue when print job comes along
+</tspan><tspan
+           x="353.44531"
+           y="672.0759"
+           id="tspan72911">5. Polls printer for its properties directly
+</tspan><tspan
+           x="353.44531"
+           y="688.74252"
+           id="tspan72913">6. creates PPD from gathered </tspan><tspan
+           x="353.44531"
+           y="705.40915"
+           id="tspan72915">properties
+</tspan><tspan
+           x="353.44531"
+           y="722.07578"
+           id="tspan72917">7. Assigns PPD to queue</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="67.721291"
+         y="107.02003"
+         id="text608203"><tspan
+           sodipodi:role="line"
+           id="tspan608201"
+           style="font-weight:normal;font-size:7.05556px;stroke-width:0.264583"
+           x="67.721291"
+           y="107.02003">CUPSD</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.211489px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215-36)"
+         d="m 170.62863,155.69505 -26.54146,0.22156"
+         id="path617587-3" />
+      <rect
+         style="fill:#ffffff;stroke:#2b2200;stroke-width:0.160152"
+         id="rect50718"
+         width="30.083199"
+         height="16.346016"
+         x="172.49704"
+         y="149.69032" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="187.8175"
+         y="156.3372"
+         id="text43704"><tspan
+           sodipodi:role="line"
+           id="tspan43702"
+           style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="187.8175"
+           y="156.3372">CUPS</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="187.8175"
+           y="163.39276"
+           id="tspan47820">Backend</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
@@ -374,67 +461,54 @@
        inkscape:transform-center-x="-3.4948833"
        inkscape:transform-center-y="3.7204283" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.204832px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215)"
-       d="M 79.657817,169.92493 56.899011,250.85787"
+       style="fill:none;stroke:#000000;stroke-width:0.21830299;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215);stroke-miterlimit:4;stroke-dasharray:0.87321198,0.87321198;stroke-dashoffset:0"
+       d="M 96.769435,171.08218 56.941206,250.83705"
        id="path112556" />
-    <g
-       id="g58908"
-       transform="translate(-6.638133,-6.2969818)">
-      <rect
-         style="fill:#ffffff;stroke:#2b2200;stroke-width:0.307707;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect155849"
-         width="75.026878"
-         height="52.004387"
-         x="61.00362"
-         y="188.29453" />
-      <text
-         xml:space="preserve"
-         style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:73.7057;stroke-width:0.264583"
+    <rect
+       style="fill:#ffffff;stroke:#2b2200;stroke-width:0.291339;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect155849"
+       width="81.954102"
+       height="42.678379"
+       x="60.995434"
+       y="188.28635" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:73.7057;stroke-width:0.264583"
+       x="60.410202"
+       y="56.737183"
+       id="text115460"
+       transform="translate(6.287647,139.33105)"><tspan
          x="60.410202"
          y="56.737183"
-         id="text115460"
-         transform="translate(6.287647,139.33105)"><tspan
-           x="60.410202"
-           y="56.737183"
-           id="tspan72438"><tspan
-             style="font-weight:bold"
-             id="tspan72436">Must create a CUPS queue (few </tspan></tspan><tspan
-           x="60.410202"
-           y="61.146896"
-           id="tspan72442"><tspan
+         id="tspan72921"><tspan
    style="font-weight:bold"
-   id="tspan72440">different options)</tspan>
+   id="tspan72919">Optionally interface with CUPS </tspan>
 </tspan><tspan
-           x="60.410202"
-           y="65.55661"
-           id="tspan72444">- gnome-control-center:
+         x="60.410202"
+         y="61.146896"
+         id="tspan72923">- gnome-control-center:
 </tspan><tspan
-           x="60.410202"
-           y="69.96632"
-           id="tspan72446">    - User Interface to CUPSD
+         x="60.410202"
+         y="65.55661"
+         id="tspan72925">    - User Interface to CUPSD
 </tspan><tspan
-           x="60.410202"
-           y="74.376033"
-           id="tspan72448">    - Add printer
+         x="60.410202"
+         y="69.96632"
+         id="tspan72927">    - Access printer settings, once </tspan><tspan
+         x="60.410202"
+         y="74.376033"
+         id="tspan72929">connection has been made
 </tspan><tspan
-           x="60.410202"
-           y="78.785747"
-           id="tspan72450">    - Access printer settings, once </tspan><tspan
-           x="60.410202"
-           y="83.195461"
-           id="tspan72452">connection has been made
+         x="60.410202"
+         y="78.785747"
+         id="tspan72931">- The CUPS web interface on http://</tspan><tspan
+         x="60.410202"
+         y="83.195461"
+         id="tspan72933">localhost:631/
 </tspan><tspan
-           x="60.410202"
-           y="87.605175"
-           id="tspan72454">- The CUPS web interface on http://</tspan><tspan
-           x="60.410202"
-           y="92.014888"
-           id="tspan72456">localhost:631/
-</tspan><tspan
-           x="60.410202"
-           y="96.424602"
-           id="tspan72458">- lpadmin command</tspan></text>
-    </g>
+         x="60.410202"
+         y="87.605175"
+         id="tspan72935">- lpadmin command</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.7507795,162.98503)"
@@ -442,22 +516,68 @@
        style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect185573)"><tspan
          x="140.00391"
          y="404.74997"
-         id="tspan72460">Once print queue </tspan><tspan
+         id="tspan72937">Once print queue </tspan><tspan
          x="140.00391"
          y="421.4166"
-         id="tspan72462">established, print dialogs </tspan><tspan
+         id="tspan72939">established, print dialogs </tspan><tspan
          x="140.00391"
          y="438.08322"
-         id="tspan72464">poll PPD options to </tspan><tspan
+         id="tspan72941">poll PPD options to </tspan><tspan
          x="140.00391"
          y="454.74985"
-         id="tspan72466">display</tspan></text>
+         id="tspan72943">display</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215)"
        d="M 182.35971,251.43929 56.905199,250.85531"
        id="path479775" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text30345"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:start;white-space:pre;shape-inside:url(#rect30347);fill:#000000;fill-opacity:1;stroke:none"
+       x="-7.6293945e-06"
+       y="0"><tspan
+         x="18.695312"
+         y="70.068359"
+         id="tspan72947"><tspan
+           style="font-weight:bold"
+           id="tspan72945">Driverless </tspan></tspan><tspan
+         x="18.695312"
+         y="120.06836"
+         id="tspan72951"><tspan
+           style="font-weight:bold"
+           id="tspan72949">IPP </tspan></tspan><tspan
+         x="18.695312"
+         y="170.06836"
+         id="tspan72955"><tspan
+           style="font-weight:bold"
+           id="tspan72953">Printing</tspan></tspan></text>
     <g
-       id="g53868">
+       id="g127279">
+      <rect
+         style="fill:#ffffff;stroke:#2b2200;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect126250"
+         width="33.513836"
+         height="13.19553"
+         x="105.55021"
+         y="244.94713" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:33.4355;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="110.50502"
+         y="255.38158"
+         id="text110074"
+         transform="translate(-2.4564006,-4.5886901)"><tspan
+           x="110.50502"
+           y="255.38158"
+           id="tspan72957">User sends print </tspan><tspan
+           x="110.50502"
+           y="259.7913"
+           id="tspan72959">jobs to queue</tspan></text>
+    </g>
+    <g
+       id="g53868"
+       transform="translate(-1.2855727,1.6088371)">
       <g
          id="g53856">
         <g
@@ -468,7 +588,7 @@
              transform="translate(8.1357778,-1.7132961)">
             <rect
                style="fill:#ffffff;stroke:#2b2200;stroke-width:0.196656;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect617392"
+               id="rect617392-5"
                width="43.370422"
                height="31.827068"
                x="153.76292"
@@ -478,234 +598,34 @@
                style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:47.0758;stroke-width:0.264583"
                x="163.79201"
                y="105.71771"
-               id="text506081"
+               id="text506081-6"
                transform="translate(-7.6895159,-0.49466383)"><tspan
                  x="163.79201"
                  y="105.71771"
-                 id="tspan72470"><tspan
+                 id="tspan72963"><tspan
    style="font-weight:bold"
-   id="tspan72468">Cups queue</tspan>
+   id="tspan72961">Cups queue</tspan>
 </tspan><tspan
                  x="163.79201"
                  y="110.12743"
-                 id="tspan72472">- queue name
+                 id="tspan72965">- queue name
 </tspan><tspan
                  x="163.79201"
                  y="114.53714"
-                 id="tspan72474">- PPD file
+                 id="tspan72967">- PPD file
 </tspan><tspan
                  x="163.79201"
                  y="118.94686"
-                 id="tspan72476">- Printer and it's </tspan><tspan
+                 id="tspan72969">- Printer and it's </tspan><tspan
                  x="163.79201"
                  y="123.35657"
-                 id="tspan72478">connection (USB, IPP, </tspan><tspan
+                 id="tspan72971">connection (USB, IPP, </tspan><tspan
                  x="163.79201"
                  y="127.76628"
-                 id="tspan72480">port, etc)</tspan></text>
+                 id="tspan72973">port, etc)</tspan></text>
           </g>
         </g>
       </g>
     </g>
-    <text
-       xml:space="preserve"
-       transform="scale(0.26458333)"
-       id="text30345"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect30347);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="18.695312"
-         y="70.068359"
-         id="tspan72484"><tspan
-           style="font-weight:bold"
-           id="tspan72482">Classic </tspan></tspan><tspan
-         x="18.695312"
-         y="120.06836"
-         id="tspan72488"><tspan
-           style="font-weight:bold"
-           id="tspan72486">CUPSD</tspan></tspan></text>
-    <g
-       id="g53835"
-       transform="translate(-16.527172,0.88954742)">
-      <rect
-         style="fill:#ffffff;stroke:#2b2200;stroke-width:0.295912;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect572705"
-         width="76.588051"
-         height="96.789627"
-         x="70.987007"
-         y="2.9088783" />
-      <text
-         xml:space="preserve"
-         style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:65.6129;stroke-width:0.264583"
-         x="5.0419836"
-         y="135.43149"
-         id="text473670"
-         transform="translate(77.706882,-113.23446)"><tspan
-           x="5.0419836"
-           y="135.43149"
-           id="tspan72492"><tspan
-   style="font-weight:bold"
-   id="tspan72490">PS printers</tspan> - PPD file only, </tspan><tspan
-           x="5.0419836"
-           y="139.84121"
-           id="tspan72494">manufacturer provided</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.229587px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker46215);marker-end:url(#marker46205)"
-         d="m 97.525835,101.37174 0.08807,21.89772"
-         id="path480518" />
-      <text
-         xml:space="preserve"
-         transform="matrix(0.26458333,0,0,0.26458333,166.61406,-134.05378)"
-         id="text398878"
-         style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect398880)"><tspan
-           x="-314.71875"
-           y="637.17575"
-           id="tspan72498"><tspan
-   style="font-weight:bold"
-   id="tspan72496">Non-PS printers </tspan>(printer drivers: </tspan><tspan
-           x="-314.71875"
-           y="653.84238"
-           id="tspan72500">HPLIP, Gutenprint, etc.):
-</tspan><tspan
-           x="-314.71875"
-           y="670.509"
-           id="tspan72502">- *PPD file* is specific to printer </tspan><tspan
-           x="-314.71875"
-           y="687.17563"
-           id="tspan72504">and defines:
-</tspan><tspan
-           x="-314.71875"
-           y="703.84226"
-           id="tspan72506">        - all printer settings
-</tspan><tspan
-           x="-314.71875"
-           y="720.50888"
-           id="tspan72508">        - all filters (only for non-</tspan><tspan
-           x="-314.71875"
-           y="737.17551"
-           id="tspan72510">postscript printers) - generates </tspan><tspan
-           x="-314.71875"
-           y="753.84213"
-           id="tspan72512">printer lang and the filter's input </tspan><tspan
-           x="-314.71875"
-           y="770.50876"
-           id="tspan72514">data format. Optional for printers </tspan><tspan
-           x="-314.71875"
-           y="787.17539"
-           id="tspan72516">with known PDLs
-</tspan><tspan
-           x="-314.71875"
-           y="803.84201"
-           id="tspan72518">        - available user settable </tspan><tspan
-           x="-314.71875"
-           y="820.50864"
-           id="tspan72520">options (fax number, password)
-</tspan><tspan
-           x="-314.71875"
-           y="837.17526"
-           id="tspan72522">- Backend modules cups uses to </tspan><tspan
-           x="-314.71875"
-           y="853.84189"
-           id="tspan72524">contact the printer hardware </tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-         x="75.944664"
-         y="12.052869"
-         id="text575121"><tspan
-           sodipodi:role="line"
-           id="tspan575119"
-           style="font-size:7.05556px;stroke-width:0.264583"
-           x="75.944664"
-           y="12.052869">Printer Driver</tspan></text>
-      <rect
-         style="fill:#ffffff;stroke:#2b2200;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect1900"
-         width="73.389626"
-         height="40.955345"
-         x="71.455521"
-         y="124.3763" />
-      <text
-         xml:space="preserve"
-         transform="matrix(0.26458333,0,0,0.26458333,-16.759188,-6.9120651)"
-         id="text299902"
-         style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;text-align:start;white-space:pre;shape-inside:url(#rect299904)"
-         x="-4.9686059e-07"
-         y="0"><tspan
-           x="353.44531"
-           y="572.07614"
-           id="tspan72526">1. User initiates queue creation
-</tspan><tspan
-           x="353.44531"
-           y="588.74277"
-           id="tspan72528">2. Cups polls for ppds
-</tspan><tspan
-           x="353.44531"
-           y="605.40939"
-           id="tspan72530">3. Cups assigns ppd to queue
-</tspan><tspan
-           x="353.44531"
-           y="622.07602"
-           id="tspan72532">4. Listens on the print queue for jobs</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-         x="76.792831"
-         y="134.92632"
-         id="text608203"><tspan
-           sodipodi:role="line"
-           id="tspan608201"
-           style="font-weight:normal;font-size:7.05556px;stroke-width:0.264583"
-           x="76.792831"
-           y="134.92632">CUPSD</tspan></text>
-    </g>
-    <g
-       id="g127287"
-       transform="translate(-1.0731066,0.23536034)">
-      <g
-         id="g127279">
-        <rect
-           style="fill:#ffffff;stroke:#2b2200;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
-           id="rect126250"
-           width="33.513836"
-           height="13.19553"
-           x="105.55021"
-           y="244.94713" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:33.4355;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-           x="110.50502"
-           y="255.38158"
-           id="text110074"
-           transform="translate(-2.4564006,-4.5886901)"><tspan
-             x="110.50502"
-             y="255.38158"
-             id="tspan72534">User sends print </tspan><tspan
-             x="110.50502"
-             y="259.7913"
-             id="tspan72536">jobs to queue</tspan></text>
-      </g>
-    </g>
-    <rect
-       style="fill:#ffffff;stroke:#2b2200;stroke-width:0.160152"
-       id="rect50718"
-       width="30.083199"
-       height="16.346016"
-       x="173.72279"
-       y="149.12358" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="189.04326"
-       y="155.77046"
-       id="text43704"><tspan
-         sodipodi:role="line"
-         id="tspan43702"
-         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="189.04326"
-         y="155.77046">CUPS</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="189.04326"
-         y="162.82602"
-         id="tspan47820">Backend</tspan></text>
   </g>
 </svg>
